@@ -1,0 +1,140 @@
+/* Border */
+.border-radius-small {
+    border-radius: var(--border-radius-small);
+}
+
+.border-radius-default {
+    border-radius: var(--border-radius-default);
+}
+
+.border-radius-large {
+    border-radius: var(--border-radius-large);
+}
+
+.border-radius-0 {
+    border-radius: var(--space-0);
+}
+
+.border-radius-1 {
+    border-radius: var(--space-1);
+}
+
+.border-radius-2 {
+    border-radius: var(--space-2);
+}
+
+.border-radius-3 {
+    border-radius: var(--space-3);
+}
+
+.border-radius-4 {
+    border-radius: var(--space-4);
+}
+
+.border-radius-full {
+    border-radius: 50%;
+}
+
+.border-none {
+    border: none;
+}
+
+.border-size-1 {
+    border-width: 1px;
+    border-style: solid;
+}
+
+.border-size-2 {
+    border-width: 2px;
+    border-style: solid;
+}
+
+.border-size-3 {
+    border-width: 3px;
+    border-style: solid;
+}
+
+.border-size-4 {
+    border-width: 4px;
+    border-style: solid;
+}
+
+.border-bottom-size-1 {
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+}
+
+.border-bottom-size-2 {
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+}
+
+.border-bottom-size-3 {
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+}
+
+.border-bottom-size-4 {
+    border-bottom-width: 4px;
+    border-bottom-style: solid;
+}
+
+.border-top-size-1 {
+    border-top-width: 1px;
+    border-top-style: solid;
+}
+
+.border-top-size-2 {
+    border-top-width: 2px;
+    border-top-style: solid;
+}
+
+.border-top-size-3 {
+    border-top-width: 3px;
+    border-top-style: solid;
+}
+
+.border-top-size-4 {
+    border-top-width: 4px;
+    border-top-style: solid;
+}
+
+.border-left-size-1 {
+    border-left-width: 1px;
+    border-left-style: solid;
+}
+
+.border-left-size-2 {
+    border-left-width: 2px;
+    border-left-style: solid;
+}
+
+.border-left-size-3 {
+    border-left-width: 3px;
+    border-left-style: solid;
+}
+
+.border-left-size-4 {
+    border-left-width: 4px;
+    border-left-style: solid;
+}
+
+.border-right-size-1 {
+    border-right-width: 1px;
+    border-right-style: solid;
+}
+
+.border-right-size-2 {
+    border-right-width: 2px;
+    border-right-style: solid;
+}
+
+.border-right-size-3 {
+    border-right-width: 3px;
+    border-right-style: solid;
+}
+
+.border-right-size-4 {
+    border-right-width: 4px;
+    border-right-style: solid;
+}

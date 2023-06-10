@@ -1,0 +1,38 @@
+/* Comum em todos os inputs de texto */
+*[class^="input-text-"], *[class*=" input-text-"] {
+    border-radius: var(--border-radius-default);
+  
+    font-weight: var(--text-weight-default);
+    font-size: var(--text-body-size);
+    line-height: var(--text-body-line-height);
+    letter-spacing: var(--text-body-letter-spacing);
+  
+    background-color: var(--color-bg-light);
+    border: 2px solid transparent;
+}
+  
+/* Input de texto padrão */
+.input-text-default {
+    color: var(--color-text-dark);
+    padding: var(--space-5);
+}
+  
+.input-text-default:hover {
+    border-color: var(--color-primary-light);
+}
+  
+.input-text-default:active {
+    border-color: var(--color-primary-dark);
+    border-width: 2px;
+}
+
+.input-text-default:focus {
+    border-color: var(--color-primary-light);
+}
+  
+.input-text-default:disabled {
+    opacity: 0.5;
+}
+  
+  
+  

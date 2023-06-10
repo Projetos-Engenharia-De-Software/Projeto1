@@ -1,0 +1,27 @@
+:root {
+    --text-family: 'Nunito Sans', sans-serif;
+    --text-weight-light: 200;
+    --text-weight-default: 400;
+    --text-weight-bold: 700;
+    --text-letter-spacing: 0px;
+
+    /* Fonte: Titulo */
+    --text-title-size: 72px;
+    --text-title-line-height: 90px;
+
+    /* Fonte: Sub-Titulo */
+    --text-sub-title-size: 48px;
+    --text-sub-title-line-height: 60px;
+
+    /* Fonte: Descrição (grande) */
+    --text-description-size: 26px;
+    --text-description-line-height: 40px;
+
+    /* Fonte: Corpo (padrão) */
+    --text-body-size: 18px;
+    --text-body-line-height: 30px;
+
+    /* Fonte: Rubrica (pequeno) */
+    --text-caption-size: 16px;
+    --text-caption-line-height: 28px;
+}

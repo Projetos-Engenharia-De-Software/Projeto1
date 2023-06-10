@@ -1,0 +1,39 @@
+/* Text align */
+.text-left {
+    text-align: left;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+/* Text decoration */
+.text-decoration-none {
+    text-decoration: none;
+}
+
+/* Text white space */
+.text-nowrap {
+    white-space: nowrap;
+}
+
+/* Text weight */
+.text-light {
+    font-weight: var(--text-weight-light);
+}
+
+.text-default {
+    font-weight: var(--text-weight-default);
+}
+
+.text-bold {
+    font-weight: var(--text-weight-bold);
+}

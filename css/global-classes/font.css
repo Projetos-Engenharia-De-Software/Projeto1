@@ -1,0 +1,71 @@
+/* Fonte */
+.font-title {
+    font-weight: var(--text-weight-bold);
+    font-size: var(--text-title-size);
+    line-height: var(--text-title-line-height);
+}
+
+.font-sub-title {
+    font-weight: var(--text-weight-bold);
+    font-size: var(--text-sub-title-size);
+    line-height: var(--text-sub-title-line-height);
+}
+
+.font-description {
+    font-weight: var(--text-weight-default);
+    font-size: var(--text-description-size);
+    line-height: var(--text-description-line-height);
+}
+
+.font-body {
+    font-weight: var(--text-weight-default);
+    font-size: var(--text-body-size);
+    line-height: var(--text-body-line-height);
+}
+
+.font-caption {
+    font-weight: var(--text-weight-default);
+    font-size: var(--text-caption-size);
+    line-height: var(--text-caption-line-height);
+}
+
+/* Fonte */
+.font-line-height-1 {
+    line-height: 10px;
+}
+
+.font-line-height-2 {
+    line-height: 20px;
+}
+
+.font-line-height-3 {
+    line-height: 25px;
+}
+
+.font-line-height-4 {
+    line-height: 30px;
+}
+
+.font-line-height-5 {
+    line-height: 35px;
+}
+
+.font-line-height-6 {
+    line-height: 40px;
+}
+
+.font-line-height-7 {
+    line-height: 45px;
+}
+
+.font-line-height-8 {
+    line-height: 50px;
+}
+
+.font-line-height-9 {
+    line-height: 55px;
+}
+
+.font-line-height-10 {
+    line-height: 60px;
+}

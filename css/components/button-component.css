@@ -1,0 +1,52 @@
+/* Comum em todos os botões */
+*[class^="btn-"], *[class*=" btn-"] {
+  border-radius: var(--border-radius-default);
+
+  font-weight: var(--text-weight-default);
+  font-size: var(--text-body-size);
+  line-height: var(--text-body-line-height);
+  letter-spacing: var(--text-letter-spacing);
+
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+/* Botão padrão */
+.btn-default {
+  color: var(--color-text-default);
+  background-color: var(--color-primary-default);
+  padding: var(--space-5);
+}
+
+.btn-default:hover {
+  background-color: var(--color-primary-light);
+}
+
+.btn-default:active {
+  background-color: var(--color-primary-dark);
+}
+
+.btn-default:disabled {
+  opacity: 0.5;
+}
+
+/* Botão de texto */
+.btn-text {
+  color: var(--color-primary-default);
+  text-transform: none;
+  width: fit-content;
+}
+
+.btn-text:hover {
+  color: var(--color-primary-light);
+}
+
+.btn-text:active {
+  color: var(--color-primary-dark);
+}
+
+.btn-text:disabled {
+  opacity: 0.5;
+}
+
+

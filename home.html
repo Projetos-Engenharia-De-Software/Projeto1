@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <!-- Fonte: Nunito Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito pt-5 pb-5+Sans:wght@200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <!-- CSS: Reset -->
+    <link href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css" rel="stylesheet">
+    <!-- CSS: Variables -->
+    <link rel="stylesheet" href="./css/variables/var-colors.css">
+    <link rel="stylesheet" href="./css/variables/var-spacing.css">
+    <link rel="stylesheet" href="./css/variables/var-typography.css">
+    <link rel="stylesheet" href="./css/variables/var-border.css">
+    <link rel="stylesheet" href="./css/variables/var-breakpoints.css">
+    <!-- CSS: Global classes -->
+    <link rel="stylesheet" href="./css/global.css">
+    <link rel="stylesheet" href="./css/global-classes/spacing.css">
+    <link rel="stylesheet" href="./css/global-classes/flexbox.css">
+    <link rel="stylesheet" href="./css/global-classes/text.css">
+    <link rel="stylesheet" href="./css/global-classes/sizing.css">
+    <link rel="stylesheet" href="./css/global-classes/font.css">
+    <link rel="stylesheet" href="./css/global-classes/colors.css">
+    <link rel="stylesheet" href="./css/global-classes/border.css">
+    <!-- CSS: Components -->
+    <link rel="stylesheet" href="./css/components/button-component.css">
+    <link rel="stylesheet" href="./css/components/course-card-component.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- CSS: Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+    <link rel="icon" type="image/png" href="/img/favicon.ico">
+    <link rel="manifest" href="/img/site.webmanifest">
+</head>
+
+<body>
+    <!-- Menu -->
+    <div class="menu">
+        <i class="fa fa fa-home"></i>
+        <a href="./index.html">Home</a>
+        <i class="fa fa fa-book"></i>
+        <a href="#">Cursos</a>
+        <i class="fa fa fa-group"></i>
+        <a href="#">Perfil </a>
+    </div>
+
+    <!-- Home -->
+    <section class="flexbox flex-column flex-align-center flex-self-center max-w-xl p-8">
+        <div>
+            <h1 class="font-description w-full">Curso de Programação</h1>
+            <p>Aprenda a programar do zero</p>
+        </div>
+
+        <!-- Course list -->
+        <article class="flexbox flex-column flex-align-center gap-2 mb-7">
+            <p class="font-description">Escolha o curso</p>
+            <div class="flexbox flex-justify-center gap-8 flex-wrap pt-5">
+                <div class="course-card-component">
+                    <h2>HTML5 e CSS3</h2>
+                </div>
+                <div class="course-card-component-selected">
+                    <h2>JavaScript</h2>
+                </div>
+                <div class="course-card-component">
+                    <h2>Java</h2>
+                </div>
+                <div class="course-card-component">
+                    <h2>Python 3</h2>
+                </div>
+                <div class="course-card-component">
+                    <h2>PHP</h2>
+                </div>
+            </div>
+        </article>
+
+        <hr/>
+        
+        <article class="flexbox flex-column bg-semi-dark text-center flex-justify-center flex-align-center p-8 border-primary-light border-size-2 border-radius-large mt-7">
+            <span class="w-fit border-bottom-size-2 border-primary-default pl-10 pr-10 mb-8">
+                <p class="font-description pb-2">Bem-vindo ao Curso de JavaScript!</p>
+            </span>
+            <p class="font-line-height-3">
+                Aqui você terá a oportunidade de mergulhar no vasto universo da programação com JavaScript, abrangendo desde os conceitos fundamentais até tópicos mais avançados. Com instrutores experientes, projetos práticos e uma abordagem passo a passo, você estará preparado para desenvolver suas próprias aplicações web interativas e abrir um mundo de possibilidades como desenvolvedor.
+            </p>
+            <p class="mt-8">
+                Vamos embarcar nessa jornada juntos!
+            </p>
+        </article>
+
+        <!-- Contents -->
+        <div class="container">
+
+            <div class="item">
+                <div>
+                    <h2>Algoritmo</h2>
+                    <p>Aprenda Algoritmo e Lógica de Programação de forma simples.</p>
+                </div>
+                <div>
+                    <h2>Bases Numéricas</h2>
+                    <p>Veja como realizar conversões entre as bases numéricas mais utilizadas no mundo da Tecnologia.</p>
+                </div>
+                <div>
+                    <h2>HTML5 e CSS3</h2>
+                    <p>Curso para a criar de site do básico ao avançado usando Linguagem de Marcaçao Hipertexto (HTML) e
+                        Folhas
+                        de Estilos em Cascata (CSS).</p>
+                </div>
+                <div>
+                    <h2>JavaScript</h2>
+                    <p></p>
+                </div>
+                <div>
+                    <h2>Git e GitHub</h2>
+                    </div>
+                </div>
+
+            </div>
+            <!-- Aulas -->
+            <div class="item">
+                <div>
+                    <h2 class="font-description w-full">Aula 1:</h2>
+                    <br>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/8mei6uVttho"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen>
+                    </iframe>
+                </div>
+                <!--Resolvendo bug de forma amador, socorro-->
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <div class="item">
+                    <h2 class="font-description w-full">Aula 2:</h2>
+                    <br>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/M2Af7gkbbro"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                </div>
+                <br>
+                <br>
+                <br>
+                <div class="item">
+                    <h2 class="font-description w-full">Aula 3:</h2>
+                    <br>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/RDrfZ-7WE8c"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>

@@ -1,0 +1,36 @@
+:root {
+    /* Cores principais */
+    --color-primary-dark: #b6361a;
+    --color-primary-default: #E44320;
+    --color-primary-light: #e9694d;
+
+    /* Cores secundárias */
+    --color-secondary-dark: #aeaeae;
+    --color-secondary-default: #D9D9D9;
+    --color-secondary-light: #e1e1e1;
+
+    /* Cores de informação */
+    --color-info-dark: #2573C8;
+    --color-info-default: #2E90FA;
+    --color-info-light: #82BCFC;
+
+    /* Cores de sucesso */
+    --color-success-dark: #0C7A13;
+    --color-success-default: #0F9918;
+    --color-success-light: #6FC274;
+
+    /* Cores de erro */
+    --color-error-dark: #892929;
+    --color-error-default: #E54545;
+    --color-error-light: #EF8F8F;
+
+    /* Cores de texto */
+    --color-text-dark: #1C1718;
+    --color-text-semi-dark: #5B4F51;
+    --color-text-default: #D9D9D9;
+    
+    /* Cores de fundo */
+    --color-bg-dark: #1C1718;
+    --color-bg-semi-dark: #332e2f;
+    --color-bg-light: #e1e1e1;
+}
